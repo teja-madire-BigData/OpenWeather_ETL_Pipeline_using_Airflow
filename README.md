@@ -50,7 +50,7 @@ This project showcases my proficiency in data integration, ETL processes, and cl
 
 ## DAG
 
-<img src="airflow_img.png">
+<img src="airflow_DAG.png">
 
 
 
