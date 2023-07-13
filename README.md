@@ -36,12 +36,12 @@ This project showcases my proficiency in data integration, ETL processes, and cl
 
 2. The extracted data is transformed in the transform_load_data function using various operations:
 
-- The temperature values are converted from Kelvin to Celsius using the kelvin_to_celsius function.
-- Specific data fields are extracted from the extracted JSON data, such as city name, weather description, temperature, feels like temperature, minimum 
-  temperature, maximum temperature, pressure, humidity, wind speed, time of record, sunrise time, and sunset time.
-- The timestamps in the extracted data, such as time_of_record, sunrise_time, and sunset_time, are converted from UNIX timestamps to datetime objects in UTC 
-  timezone using the datetime.utcfromtimestamp() function. The time zone offset from the data is added to adjust the time to the correct local time.  
-- The transformed data is stored in a dictionary format.
+     - The temperature values are converted from Kelvin to Celsius using the kelvin_to_celsius function.
+     - Specific data fields are extracted from the extracted JSON data, such as city name, weather description, temperature, feels like temperature, minimum 
+       temperature, maximum temperature, pressure, humidity, wind speed, time of record, sunrise time, and sunset time.                                            
+     - The timestamps in the extracted data, such as time_of_record, sunrise_time, and sunset_time, are converted from UNIX timestamps to datetime objects in UTC 
+       timezone using the datetime.utcfromtimestamp() function. The time zone offset from the data is added to adjust the time to the correct local time.  
+     - The transformed data is stored in a dictionary format.
 
 3. The transformed data is converted into a pandas DataFrame using pd.DataFrame.
 4. The transformed data is saved as a CSV file in an S3 bucket. The file name includes the current timestamp.
