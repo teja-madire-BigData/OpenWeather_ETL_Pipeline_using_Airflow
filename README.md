@@ -45,6 +45,13 @@ This project showcases my proficiency in data integration, ETL processes, and cl
 
 3. The transformed data is converted into a pandas DataFrame using pd.DataFrame.
 4. The transformed data is saved as a CSV file in an S3 bucket. The file name includes the current timestamp.
+   
+
+
+## DAG
+
+<img src="airflow_img.png">
+
 
 
 
