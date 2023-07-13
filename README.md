@@ -1,10 +1,10 @@
 # OpenWeather_ETL_Pipeline_using_Airflow
 
-##Project Description:
+## Project Description:
 
 Developed an ELT (Extract, Load, Transform) pipeline leveraging the OpenWeather API, Airflow, Python, EC2, and S3. The pipeline extracts weather data from the OpenWeather API, performs data transformation using Python scripts running on an EC2 instance, and loads the transformed data into S3 for further analysis.
 
-##Key Achievements:
+## Key Achievements:
 
 Designed and implemented an automated data extraction process from the OpenWeather API.
 Orchestrated the pipeline using Airflow to ensure efficient scheduling and execution of data transformations.
