@@ -28,7 +28,7 @@ This project showcases my proficiency in data integration, ETL processes, and cl
 
 ## The Transformed data that is in each ".csv" file in S3 bucket looks like
 
-<img src="output.png">
+<img src="output_img.png">
 
 ## The Transformation performed on the data
 
